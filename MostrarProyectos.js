@@ -39,6 +39,10 @@
                         <p><strong>Estado:</strong> ${proyecto._links.status.title}</p>
                         <p><strong>Descripción:</strong> ${proyecto.description.raw}</p>
                         <p><strong>Actualizado:</strong> ${new Date(proyecto.updatedAt).toLocaleDateString()}</p>
+                        <button class="Tareas" onclick="
+                            sessionStorage.setItem('projectId', '${proyecto.id}');
+                            window.location.href = 'tareas.html';
+                        ">Ver Tareas</button>
                     </div>
                 `;
             });
