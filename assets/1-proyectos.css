@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+#proyectos {
+    max-width: 900px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.proyecto {
+    background: #fff;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #0001;
+    padding: 24px 20px 18px 20px;
+    width: 320px;
+    transition: box-shadow 0.2s;
+}
+
+.proyecto:hover {
+    box-shadow: 0 4px 16px #0002;
+}
+
+.nombre-proyecto {
+    color: #2980b9;
+    margin: 0 0 10px 0;
+    font-size: 1.3em;
+}
+
+.proyecto p {
+    margin: 6px 0;
+    color: #444;
+    font-size: 0.98em;
+}
+
+button.Tareas {
+    margin-top: 12px;
+    background: #2980b9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 18px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button.Tareas:hover {
+    background: #1a5a85;
+}
