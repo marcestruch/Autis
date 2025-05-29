@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tareas</title>
+    <title>Todas las Tareas</title>
     <link rel="stylesheet" href="assets/2-tareas.css">
 </head>
 <body>
-    <h1>Tareas</h1>
+    <h1>Todas las Tareas</h1>
     <button style="
     display: block;
     margin: 32px auto;
@@ -19,13 +19,15 @@
     cursor: pointer;
     font-size: 16px;
     transition: background 0.3s;
-    " class="Tareas" onclick="window.location.href = 'proyectos.html';">
+    "
+    class="Tareas" onclick="
+    window.location.href = 'proyectos.html';
+    ">
         Volver a proyectos
     </button>
     <div id="tareas">
         <p class="cargando">Cargando tareas...</p>
     </div>
-
-    <script src="assets/MostarTareas.js"></script>
+    <script src="assets/MostrarTodasTareas.js"></script>
 </body>
 </html>
